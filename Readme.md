@@ -1,6 +1,16 @@
 # Simple Image Diff Checker
 Simple implementation of an Image difference checker.
 
+##Pending Extensions
+### Improving pixel difference function
+Right now we are using Manhattan distance, we may want to explore alternatives that better reflect difference in color.
+
+### Image alignment
+Evaluate ways to improve alignment for misaligned input images.
+
+### Non comforming image shapes
+Related to the previous point. For input images with different sizes explore ways to align and compare intersection.
+
 ##Build
 ```
 go build
@@ -24,16 +34,3 @@ Image 1 | Image 2
 Output 1 | Output 2
 --------|---------
 ![Reference](./images/out-1.jpg)|![Reference](./images/out-2.jpg)
-
-
-
-
-##Pending Extensions
-### Improving pixel difference function
-Right now we are using Manhattan distance, we may want to explore alternatives that better reflect difference in color.
-
-### Image alignment
-Evaluate ways to improve alignment for misaligned input images.
-
-### Non comforming image shapes
-Related to the previous point. For input images with different sizes explore ways to align and compare intersection.
