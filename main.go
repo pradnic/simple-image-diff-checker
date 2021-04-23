@@ -10,14 +10,14 @@ import (
 
 var (
 	help = flag.Bool("h", false, "Prints help")
-	in1 = flag.String("in1", "in1.jpg", "Set path to input 1")
-	in2 = flag.String("in2", "in2.jpg", "Set path to input 2")
+	in1  = flag.String("in1", "in1.jpg", "Set path to input 1")
+	in2  = flag.String("in2", "in2.jpg", "Set path to input 2")
 	out1 = flag.String("out1", "out1.jpg", "Set path to output 1")
 	out2 = flag.String("out2", "out2.jpg", "Set path to output 2")
-	R = flag.Uint("r", 255, "Set RGBA R value")
-	G = flag.Uint("g", 255, "Set RGBA G value")
-	B = flag.Uint("b", 255, "Set RGBA B value")
-	A = flag.Uint("a", 1, "Set RGBA A value")
+	R    = flag.Uint("r", 255, "Set RGBA R value")
+	G    = flag.Uint("g", 255, "Set RGBA G value")
+	B    = flag.Uint("b", 255, "Set RGBA B value")
+	A    = flag.Uint("a", 1, "Set RGBA A value")
 )
 
 func main() {
