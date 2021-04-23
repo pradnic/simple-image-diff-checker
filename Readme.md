@@ -26,6 +26,8 @@ Output 1 | Output 2
 ![Reference](./images/out-1.jpg)|![Reference](./images/out-2.jpg)
 
 
+
+
 ##Pending Extensions
 ### Improving pixel difference function
 Right now we are using Manhattan distance, we may want to explore alternatives that better reflect difference in color.
